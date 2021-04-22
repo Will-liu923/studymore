@@ -17,7 +17,7 @@ public class BubbleSort {
     }
 
     public static int[] bubbleSort(int[] array) {
-        int temp = 0;
+        int temp;
         //首先确定循环次数
         for (int i = 0; i < array.length; i++) {
             //第二：相邻元素比较，如果第一个数比第二个数大，就交换位置
@@ -34,7 +34,7 @@ public class BubbleSort {
 
     public static int[] bubbleSort2(int[] array) { //优化排序，如果进来的数组/排过一轮的数组已经是顺序的了，就不需要再排序了
 
-        int temp = 0;
+        int temp;
         //首先确定循环次数
         for (int i = 0; i < array.length; i++) {
 

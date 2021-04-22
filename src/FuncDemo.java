@@ -1,3 +1,7 @@
+/*
+方法： 修饰符 返回值类型 方法名(...){方法体}
+ */
+
 public class FuncDemo {
     public static void main(String[] args) {
 
